@@ -17,7 +17,7 @@ const Menu = () => {
             if (result.isConfirmed) {
                 Swal.fire({
                     title: "Ordered!",
-                    text: "Your file has been deleted.",
+                    text: "Your order has been placed.",
                     icon: "success"
                 });
             }
